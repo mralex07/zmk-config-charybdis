@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/victorlucachi
+      url-base: https://github.com/mralex07
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: pmw3610-aml
+      revision: pmw3610-aml-nrfmicro
       import: app/west.yml
   self:
     path: config
