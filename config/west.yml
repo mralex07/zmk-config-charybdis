@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk_tr
       remote: zmkfirmware
-      revision: pmw3610-aml-nrfmicro
+      revision: pmw3610-aml
       import: app/west.yml
   self:
     path: config
